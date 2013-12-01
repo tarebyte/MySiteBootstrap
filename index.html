@@ -10,7 +10,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <!-- Le styles -->
+
     <link href="css/bootstrap.css" rel="stylesheet">
     <style>
       
@@ -33,11 +33,14 @@
       <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
                     <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
                                    <link rel="shortcut icon" href="../assets/ico/favicon.png">
+
+     
   </head>
 
 
   <body>
 
+<!-- Navbar -->
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
@@ -54,7 +57,7 @@
               <li><a href="#projects">Projects</a></li>
               <li><a href="#resume">Resume</a></li>
               <li><a href="#contact">Contact</a></li>
-              <li><a href="#classes">Classes</a></li>
+              <!-- <li><a href="#classes">Classes</a></li> -->
             </ul>
           </div><!--/.nav-collapse -->
         </div>
@@ -69,15 +72,14 @@
       <div class="featurette">
         <img class="featurette-image pull-right" src="img/selfPhoto.jpg" style="border-radius: 300px;height=100%">
         <h2 class="featurette-heading">Hello, I'm Matthew Faluotico. <span class="muted">A Software Developer.</span></h2>
-        <p class="lead">I was born in Kingston, New York, in 1993 however quickly move to Stow, Ohio. I'm a Computer Science and Engineering student at The Ohio State University. I'm currently venturing into iOS development, with a few working projects available on GitHub.</p>
+        <p class="lead">I was born in Kingston, New York, in 1993 however quickly move to Stow, Ohio. I'm a Computer Science and Engineering student at The Ohio State University. I'm currently experimenting with iOS development, with a few working projects available on GitHub.</p>
         <br>
-        <p class="lead">In the summer of 2013, I began my internship at Etactics Inc., a clearinghouse in Stow, Ohio. I was responsible for generating customer friendly graphs and reports using Java and SQL. A second intern and I developed a system to alert management when customer activity drops below average.
+        <p class="lead">In the summer of 2013, I began an internship at Etactics Inc., a clearinghouse in Stow, Ohio. I was responsible for generating customer friendly graphs and reports using Java and SQL. A second intern and I developed a system to alert management when customer activity drops below average.
         </p>
         <br>
        	<p class="lead">
-      		My current focus is Objective-C and web development. I'm in the process of developing multiple iOS applications and learning Ruby on Rails, HTML, and CSS through Bootstrap. 
+      		My current focus is Objective-C and web development. I'm in the process of developing multiple iOS applications and with the help of the <a href="http://cwdg.herokuapp.com/"> Collegiate Web Developers Group</a> at The Ohio State Univserirt and Twitter Bootstrap, I'm learning Ruby on Rails, HTML, and CSS.
         </p>
-
       </div>
       </secion>
 
@@ -85,59 +87,136 @@
 
 
       <hr class="featurette-divider">
-
-
-      <br>
       
       <section id="languages">
       <div class="featurette">
-        <h2 class="featurette-heading">Languages.</h2>
+        <h2 class="featurette-heading">Language Experience.</h2>
         <p><br></p>
         <p class="lead">
         <img src="img/experience.png" align="center">
        	</p>
       </div>
-     <hr class="featurette-divider">
 
      </section>
 
-     <br>
+     <hr class="featurette-divider"> <br> <br> 
+     
 <!-- Projects -->
+	
+	<section id="projects">
 
+	<br><br><br>
+
+	<h2 class="featurette-heading">What I've Been Working On. </h2>
+	<br>
+	<div class="row">
+		<div class="span4">
+			<h2 class="project-heading">WalkitOut</h2>
+			<p>Pedometer for the iPhone 5S. The M7 Motion chip stores footstep data. This app turns footstep data into miles and calories results.
+			<br><br>
+			Languages: Objective-C
+			</p>
+		</div>
+		<div class="span4">
+			<h2 class="project-heading">DPICalculator</h2>
+			<p>iPhone ppi calculator. User inputs display information and the pixels-per-inch of the dispaly is returned.
+			<br><br>
+			Languages: Objective-C
+			</p>
+		</div>
+		<div class="span4">
+			<h2 class="project-heading">Personal Website</h2>
+			<p>Personal Website with projects, resume, and external links. Built using Twitter Bootsrap as a gateway into learning html, css, and javascript. 
+			<br><br>
+			Languages: html, css
+			</p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="span4">
+			<h2 class="project-heading">Alfred Workflows</h2>
+			<p>A collection of workflows for Alfred app 2.0 for Mac OS X. 
+			<br><br>
+			Languages: Applescript, Bash
+			</p>
+		</div>
+		<div class="span4">
+			<h2 class="project-heading">Words by Occurrence</h2>
+			<p>Counting the words in a document and returning them in a sorted order while maintaing a runtime of O(n). 
+			<br><br>
+			Languages: Objective-C
+			</p>
+		</div>
+		<div class="span4">
+			<h2 class="project-heading">CMStepCounter Wrapper</h2>
+			<p>A wrapper for the iOS Cocoa Core Motion Step Counter framework. Simplifies methods for novice users. 
+			<br><br>
+			Languages: Objective -C
+			</p>
+		</div>
+	</div>
+
+	</section>
 
 
 <!-- Resume -->
+	<section id = "resume">
+	<hr class="featurette-divider">
 
-	
+	<div class="featurette">
+		<h2 class="featurette-heading">Resume.</h2>		
+		<p class="lead" align="center">If your browser does not support PDF viewing, you can download <a href="docs/MFResume.pdf">here.</a>
+		</p>
+			
+	    <object data="docs/MFResume.pdf" type="application/pdf" width="100%" height="600">
+	        <p>No PDF View present.</p>
+	    </object>
+
+	    <br>
+	</div>
+
+	</section>
+
+
 <!-- Contact -->
+
+	<hr class="featurette-divider">
+
      <section id="contact"
-     <h2 class="featurette-heading">Contact Me.</h2>
+     <h2 class="featurette-heading">Contacting Me.<span class = "muted"> I'm Happy to Answer Any Questions.</span></h2>
      <p><br></p>
       <div class="row">
         <div class="span3">
-          <img src="img/gmail.png">
-          <h2>Email</h2>
+          <a href="mailto:matt.faluotico@gmail.com"><img src="img/gmail.png"></a>
+          <h2 class="project-heading">Email</h2>
         </div>
         
         <div class="span3">
-          <img src="img/linkedin.png">
-          <h2>LinkedIn®</h2>
+          <a href="http://www.linkedin.com/in/matthewfaluotico" target="_blank"><img src="img/linkedin.png"></a>
+          <h2 class="project-heading">LinkedIn</h2>
         </div>
         
         <div class="span3">
-          <img src="img/gplus.png">
-          <h2>Google+</h2>
+          <a href="https://plus.google.com/+MatthewFaluotico/" target="_blank"><img src="img/gplus.png"></a>
+          <h2 class="project-heading">Google+</h2>
         </div>
 
         <div class="span3">
-          <img src="img/Octocat.jpg">
-          <h2>GitHub</h2>
+          <a href="https://github.com/MattFaluotico" target="_blank"><img src="img/Octocat.jpg"></a>
+          <h2 class="project-heading">GitHub</h2>
         </div>
         </div>
-        </section>
+     </section>
 
 <!-- Classes -->
 
+	<hr class="featurette-divider">
+
+
+
+
+<!-- Footer -->
 
         <!-- Go to the top -->
         <h3 align="center"><a href="#top">↑</a></h3>
