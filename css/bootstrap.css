@@ -707,6 +707,12 @@ p {
   margin: 0 0 10px;
 }
 
+
+.project-paragraph {
+  font-size: 14px;
+  font-weight: 200;
+}
+
 .lead {
   margin-bottom: 20px;
   font-size: 21px;
